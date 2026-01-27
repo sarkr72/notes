@@ -250,4 +250,4 @@ If you want next:
 
 1. java interview questions
 2. DesignPair Round (45 minutes): This will involve one system design/whiteboarding question.
-Behavioral Round (45 minutes): We will assess soft skills, career aspirations, and teamwork/leadership qualities.
+3. Behavioral Round (45 minutes): We will assess soft skills, career aspirations, and teamwork/leadership qualities.
