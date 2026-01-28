@@ -39,6 +39,40 @@ study:
 ⦁	“Frontend uses code-splitting and memoization to avoid unnecessary re-renders.”
 
 
+1.	1. List of Order to Learn
+2.	Here's the sequence I recommend. It groups related topics and progresses from simple to complex. Each topic builds on the previous ones.
+3.	CrudRepository vs JpaRepository (Basics of data access in Spring Boot).
+4.	Lazy vs Eager loading (How data is fetched from the database).
+5.	Try profiles (Managing different environments in Spring Boot).
+6.	What is OncePerRequestFilter? (Handling requests in web apps).
+7.	How does Spring Boot scale? (Making apps handle more users).
+8.	How do you improve performance? (Speeding up your app).
+9.	“Describe a Spring Boot service you built” (Putting it all together to build a service).
+10.	“What if two requests update same record?” (Handling conflicts in data updates).
+11.	“How do you ensure consistency?” (Keeping data reliable).
+12.	Concurrency Transactions Failure handling Scaling (Dealing with multiple users and errors).
+13.	ACID transactions Double-entry bookkeeping Idempotency keys Rollbacks Auditing (Core rules for reliable transactions, like in banking).
+14.	ACID transactions and row-level locking (Deep dive into transaction safety).
+15.	Atomicity (One part of ACID, ensuring all-or-nothing changes).
+16.	Each bank transfer request includes an idempotency key (Preventing duplicate actions).
+17.	The service layer is stateless, so we can horizontally scale behind a load balancer. Read-heavy operations like transaction history can be served via read replicas and pagination.” (Scaling for read-heavy tasks).
+18.	Using the double-entry transaction records, we can reconstruct the full lifecycle of any transfer for auditing or dispute resolution (Tracking changes for checks).
+19.	Transaction History Service (Building a service to show past transactions).
+20.	Cloud Storage System (Storing files in the cloud).
+21.	Notification System (Sending messages to users).
+22.	Asynchronous notifications using a message queue (Handling notifications without slowing down the app).
+23.	JWT Token expiration Refresh tokens Role-based access (Securing your app with tokens).
+24.	JWT stored in memory (Where to keep tokens safely).
+25.	State Management (Handling data in frontend apps).
+26.	Testing (FRONTEND) (Checking if your frontend code works).
+27.	How do you handle large transaction lists?” (Showing big lists without crashing the app).
+28.	How do you sync frontend with backend changes?” (Keeping frontend and backend in sync).
+29.	How do you deploy frontend?” (Putting your frontend live).
+30.	(Non-Functional): “Since this is a financial application: Strong consistency is required Transactions must be atomic Security and auditability are mandatory Latency should be reasonable, but correctness is the priority” (Key rules for financial apps).
+31.	Backend services are stateless (Why backends shouldn't store user data).
+32.	State is kept local where possible. Server state like balances and transactions is managed via a data-fetching layer with caching and retries.” (Managing data efficiently).
+33.	double-entry model (A way to record transactions like in accounting).
+34.	“Frontend uses code-splitting and memoization to avoid unnecessary re-renders.” (Optimizing frontend performance).
 
 
 
