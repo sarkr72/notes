@@ -1,3 +1,15 @@
+
+HikariCP
+jwt stateless
+jwt stored in memory
+Transaction History
+Notifications asynchronously
+State Management
+Sync Frontend & Backend Contract-first APIs Versioning
+Frontend Testing
+Frontend Deployment
+
+
 study:
 
 ⦁	CrudRepository vs JpaRepository?
