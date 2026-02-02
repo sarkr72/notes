@@ -1,3 +1,77 @@
+💼 JPMC Interview Must-Do LeetCode Problems
+
+1️⃣ Must-Do Arrays (Highest Priority)
+Problem	Difficulty
+Two Sum	Easy
+Best Time to Buy and Sell Stock	Easy
+Contains Duplicate	Easy
+Maximum Subarray	Easy
+Product of Array Except Self	Medium
+Move Zeroes	Easy
+
+Optional / If time allows:
+Top K Frequent Elements | Medium
+Minimum Size Subarray Sum | Medium
+Sum of Absolute Differences in Sorted Array | Medium
+
+2️⃣ Must-Do Strings
+Problem	Difficulty
+Valid Anagram	Easy
+Longest Substring Without Repeating Characters	Medium
+Permutation in String	Medium
+Longest Repeating Character Replacement	Medium
+Group Anagrams	Medium
+Valid Palindrome	Easy
+
+Optional / If time allows:
+Minimum Window Substring | Medium
+Implement strStr() / IndexOf | Easy |
+
+3️⃣ Must-Do Two Pointers
+Problem	Difficulty
+Reverse String	Easy
+Two Sum II - Input array sorted	Easy
+Container With Most Water	Medium
+3Sum	Medium
+Squares of a Sorted Array	Easy
+
+4️⃣ Must-Do Matrix / 2D Arrays
+Problem	Difficulty
+Set Matrix Zeroes	Medium
+Spiral Matrix	Medium
+Transpose Matrix	Easy
+Number of Islands	Medium
+
+Optional / If time allows:
+Find Peak Element 2D | Medium
+
+5️⃣ Must-Do Hashing / Map / Set Problems
+Problem	Difficulty
+Contains Duplicate II	Easy
+Top K Frequent Elements	Medium
+Happy Number	Easy
+
+6️⃣ Must-Do Sliding Window / Variable Window
+Problem	Difficulty
+Maximum Average Subarray I	Easy
+Longest Substring Without Repeating Characters	Medium
+Permutation in String	Medium
+Minimum Size Subarray Sum	Medium
+Fruit Into Baskets	Medium
+Binary Subarrays With Sum	Medium
+
+7️⃣ Must-Do Miscellaneous / DP / Interval / Stack
+Problem	Difficulty
+Climbing Stairs	Easy
+House Robber	Medium
+Merge Intervals	Medium
+Insert Interval	Medium
+Valid Parentheses	Easy
+
+
+
+
+
 
 HikariCP
 jwt stateless
