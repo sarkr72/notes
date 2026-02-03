@@ -70,7 +70,114 @@ Valid Parentheses	Easy
 
 
 
+1️⃣ “Tell me about yourself”
+✅ Answer (60–90 seconds)
 
+I’m a full-stack software engineer with experience building and deploying cloud-based applications using Spring Boot, React, and AWS.
+
+I currently work at the NYS Office of ITS, where I develop backend and frontend services for a sales tax application and collaborate in agile sprints. I’ve also completed training in CI/CD and Elasticsearch.
+
+Before that, I completed a full-stack internship where I independently built a React and Firebase application, focusing on performance, accessibility, and secure backend services.
+
+I enjoy working on scalable systems, learning from teammates, and building reliable software, which is why I’m excited about this role at JPMorgan.
+
+2️⃣ “Tell me about a challenging technical problem you solved”
+✅ Answer (Inventory Management Project)
+
+In my inventory management project, I needed to support real-time updates when inventory levels changed.
+
+The challenge was keeping multiple users in sync without constant polling. I implemented WebSockets to push updates in real time and used JWT for secure access control.
+
+As a result, users saw inventory changes immediately, the system performed better, and the overall user experience improved.
+
+3️⃣ “Tell me about a time you worked on a team”
+✅ Answer (NYS ITS – Agile)
+
+At NYS ITS, I work in an agile team delivering features in sprints.
+
+My role involved developing services, participating in stand-ups, and collaborating with teammates to resolve blockers.
+
+When issues came up, I communicated early and worked with the team to find solutions, which helped us consistently deliver on schedule.
+
+4️⃣ “Tell me about a time you disagreed with a teammate”
+✅ Answer
+
+During a project, we had different opinions on how to structure a backend service.
+
+I focused on understanding the other person’s concerns and explained my approach with clear trade-offs.
+
+We ended up combining ideas, and the final solution was simpler and easier to maintain. That experience reinforced the importance of open communication.
+
+5️⃣ “Tell me about a time you had to learn something quickly”
+✅ Answer (AWS / Kubernetes)
+
+While working on my microservices project, I needed to learn Kubernetes quickly to deploy multiple services.
+
+I broke the learning into small steps, tested locally with Docker, and iterated until everything worked correctly.
+
+This helped me successfully deploy the services and improved my confidence working with cloud-native systems.
+
+6️⃣ “Tell me about a time you made a mistake”
+✅ Answer
+
+Early in a project, I underestimated how much time a feature would take.
+
+Once I realized the risk, I communicated it to the team, adjusted my approach, and focused on delivering the most critical functionality first.
+
+Since then, I’ve been more proactive about estimating work and raising concerns early.
+
+7️⃣ “How do you handle pressure or tight deadlines?”
+✅ Answer
+
+I handle pressure by breaking tasks into smaller pieces, prioritizing the most important work, and communicating clearly with the team.
+
+This approach helps me stay focused and deliver quality work even under tight deadlines.
+
+8️⃣ “Tell me about a time you showed leadership”
+✅ Answer (Internship / Project Lead)
+
+In my full-stack social media project, I led the team by organizing tasks, setting timelines, and ensuring everyone understood their responsibilities.
+
+I also helped teammates troubleshoot issues and kept communication open.
+
+We successfully delivered the project on time and deployed it to production.
+
+9️⃣ “Why JPMorgan Chase?”
+✅ Answer
+
+JPMorgan builds large-scale, mission-critical systems where reliability and security are essential.
+
+I’m excited by the opportunity to work on complex systems, learn from experienced engineers, and contribute to software that impacts millions of users.
+
+🔟 “Where do you see yourself in 3–5 years?”
+✅ Answer
+
+In the next few years, I want to grow as a software engineer by working on scalable backend systems and improving my system design skills.
+
+Long term, I’d like to take on more ownership, mentor others, and contribute to designing reliable, high-impact systems.
+
+1️⃣1️⃣ “What are your strengths?”
+✅ Answer
+
+My strengths are problem-solving, adaptability, and clear communication. I’m comfortable learning new technologies and working with teams to deliver reliable solutions.
+
+1️⃣2️⃣ “What is a weakness you’re working on?”
+✅ Answer (Safe & Honest)
+
+Earlier, I tried to solve problems independently for too long. I’ve learned that asking questions early leads to better outcomes and faster progress.
+
+1️⃣3️⃣ “How do you handle feedback?”
+✅ Answer
+
+I see feedback as an opportunity to improve. I listen carefully, apply it to my work, and follow up to make sure I’m moving in the right direction.
+
+1️⃣4️⃣ “Do you have any questions for us?”
+
+Ask 1–2:
+
+“How do engineers grow and take on more responsibility over time?”
+
+“What qualities make someone successful on this team?”
 
 
 HikariCP
