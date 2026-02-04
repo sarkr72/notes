@@ -180,6 +180,241 @@ Ask 1–2:
 “What qualities make someone successful on this team?”
 
 
+
+🧠 SAMPLE DESIGN QUESTION #3
+
+Design an online appointment booking system
+(think doctor / bank advisor / service booking)
+
+Users should:
+
+View available time slots
+
+Book an appointment
+
+Receive confirmation
+
+See updates in real time
+
+⏱️ FULL 45-MIN WALKTHROUGH (WHAT HAPPENS + WHAT YOU SAY)
+⏱️ 0–3 MIN — Interview Starts
+
+They say:
+
+We’ll do a system design exercise.
+
+You say:
+
+Sounds good. I’ll think out loud and ask clarifying questions as we go.
+
+⏱️ 3–7 MIN — Clarify Requirements (CRITICAL)
+
+You say:
+
+Before designing, I want to clarify requirements.
+
+Ask (short & simple):
+
+Is this web only? → Yes
+
+Do bookings need to be real time? → Yes
+
+How many users? → Large scale
+
+Do users need notifications? → Yes
+
+Then summarize:
+
+So users can view slots, book appointments, and get confirmations in real time.
+
+⏱️ 7–10 MIN — Define Core Flows (NO DRAWING YET)
+
+You say:
+
+I’ll start with the main user flows.
+
+User logs in
+
+User views available slots
+
+User books a slot
+
+System confirms booking
+
+This shows structure.
+
+⏱️ 10–15 MIN — High-Level Architecture (START DRAWING)
+✏️ What you draw
+
+Big boxes only:
+
+Browser (React)
+   |
+CloudFront
+   |
+API Gateway
+   |
+Backend Services
+   |
+Database
+
+
+What you say while drawing:
+
+I’ll begin with a high-level architecture and then go deeper.
+
+⏱️ 15–20 MIN — Frontend (React)
+
+They ask:
+
+What does the frontend do?
+
+You say:
+
+The frontend is a React application that:
+
+Shows available slots
+
+Allows booking
+
+Displays confirmation
+
+It communicates with the backend using REST or GraphQL APIs.
+
+Optional line:
+
+GraphQL helps reduce over-fetching for slot data.
+
+⏱️ 20–25 MIN — Backend Services (Spring Boot / Node.js)
+✏️ Draw services
+Auth Service
+Booking Service
+Notification Service
+
+
+You say:
+
+I’d use Spring Boot for core services.
+Node.js could be used for lightweight real-time notifications if needed.
+
+Explain:
+
+Auth Service → login, JWT
+
+Booking Service → slot availability, booking logic
+
+Notification Service → confirmation messages
+
+⏱️ 25–30 MIN — Booking Logic (IMPORTANT PART)
+
+They ask:
+
+How do you prevent double booking?
+
+You say (very important):
+
+I would handle this at the database level using transactions and row locking.
+
+Simple version:
+
+Only one booking can succeed for a given slot.
+
+⏱️ 30–33 MIN — Database Design
+
+You draw simple tables
+
+Users
+
+id
+email
+
+
+Appointments
+
+id
+slot_time
+status
+
+
+Bookings
+
+id
+user_id
+appointment_id
+
+
+You say:
+
+Data is stored in Amazon RDS using PostgreSQL.
+
+⏱️ 33–36 MIN — Notifications (SNS / SQS / WebSocket)
+
+They ask:
+
+How does the user get confirmation?
+
+You say:
+
+After booking, an event is published to SNS.
+The notification service consumes it via SQS.
+
+Optional real-time:
+
+For real-time UI updates, I’d use WebSockets.
+
+⏱️ 36–39 MIN — Deployment & Cloud (AWS)
+
+They ask:
+
+How is this deployed?
+
+You say (simple sentence):
+
+Services are Dockerized and deployed on Kubernetes (EKS) behind an ALB.
+
+Add:
+
+Frontend is hosted on S3 and served via CloudFront.
+
+Optional:
+
+Fargate can be used to reduce infrastructure management.
+
+⏱️ 39–41 MIN — Security
+
+They ask:
+
+How do you secure it?
+
+You say:
+
+HTTPS everywhere
+
+JWT with Spring Security
+
+IAM roles for AWS services
+
+Private databases
+
+Keep it short.
+
+⏱️ 41–43 MIN — Trade-offs
+
+They ask:
+
+Any trade-offs?
+
+You say (one sentence):
+
+Microservices improve scalability but add operational complexity, and real-time updates increase system complexity.
+
+⏱️ 43–45 MIN — Wrap-up Question
+
+You ask:
+
+How does the team handle scaling systems during peak traffic while keeping them reliable?
+
+
 HikariCP
 jwt stateless
 jwt stored in memory
