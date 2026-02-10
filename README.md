@@ -1,72 +1,348 @@
-💼 JPMC Interview Must-Do LeetCode Problems
+I’m going to give you a true professional roadmap, not a random LeetCode dump.
+This is structured the way top candidates at FAANG / trading firms / top banks actually build mastery.
 
-1️⃣ Must-Do Arrays (Highest Priority)
-Problem	Difficulty
-Two Sum	Easy
-Best Time to Buy and Sell Stock	Easy
-Contains Duplicate	Easy
-Maximum Subarray	Easy
-Product of Array Except Self	Medium
-Move Zeroes	Easy
+You do NOT need 800 problems.
 
-Optional / If time allows:
-Top K Frequent Elements | Medium
-Minimum Size Subarray Sum | Medium
-Sum of Absolute Differences in Sorted Array | Medium
+👉 ~160–220 carefully chosen problems will make you extremely strong.
 
-2️⃣ Must-Do Strings
-Problem	Difficulty
-Valid Anagram	Easy
-Longest Substring Without Repeating Characters	Medium
-Permutation in String	Medium
-Longest Repeating Character Replacement	Medium
-Group Anagrams	Medium
-Valid Palindrome	Easy
+Below is the most optimized progression based on how real interview difficulty scales.
 
-Optional / If time allows:
-Minimum Window Substring | Medium
-Implement strStr() / IndexOf | Easy |
+⭐ LEVEL 0 — Absolute Foundations (Must Be Reflex)
 
-3️⃣ Must-Do Two Pointers
-Problem	Difficulty
-Reverse String	Easy
-Two Sum II - Input array sorted	Easy
-Container With Most Water	Medium
-3Sum	Medium
-Squares of a Sorted Array	Easy
+If these are not automatic, everything else becomes slow.
 
-4️⃣ Must-Do Matrix / 2D Arrays
-Problem	Difficulty
-Set Matrix Zeroes	Medium
-Spiral Matrix	Medium
-Transpose Matrix	Easy
-Number of Islands	Medium
+Arrays & Hashing (DO THESE FIRST)
 
-Optional / If time allows:
-Find Peak Element 2D | Medium
+👉 Goal: recognize patterns instantly.
 
-5️⃣ Must-Do Hashing / Map / Set Problems
-Problem	Difficulty
-Contains Duplicate II	Easy
-Top K Frequent Elements	Medium
-Happy Number	Easy
+Start Here:
 
-6️⃣ Must-Do Sliding Window / Variable Window
-Problem	Difficulty
-Maximum Average Subarray I	Easy
-Longest Substring Without Repeating Characters	Medium
-Permutation in String	Medium
-Minimum Size Subarray Sum	Medium
-Fruit Into Baskets	Medium
-Binary Subarrays With Sum	Medium
+Two Sum
 
-7️⃣ Must-Do Miscellaneous / DP / Interval / Stack
-Problem	Difficulty
-Climbing Stairs	Easy
-House Robber	Medium
-Merge Intervals	Medium
-Insert Interval	Medium
-Valid Parentheses	Easy
+Contains Duplicate
+
+Valid Anagram
+
+Group Anagrams
+
+Top K Frequent Elements
+
+Product of Array Except Self ⭐
+
+Longest Consecutive Sequence ⭐⭐⭐
+
+👉 When Longest Consecutive “clicks”, your hash skills are interview-ready.
+
+Two Pointers
+
+Critical for medium problems.
+
+Valid Palindrome
+
+Two Sum II (sorted)
+
+3Sum ⭐⭐⭐
+
+Container With Most Water ⭐⭐⭐
+
+Trapping Rain Water ⭐⭐⭐⭐ (very important)
+
+If you master Rain Water, interviewers know you’re legit.
+
+Sliding Window
+
+Companies LOVE this pattern because it shows algorithm maturity.
+
+Best Time to Buy and Sell Stock
+
+Longest Substring Without Repeating Characters ⭐⭐⭐
+
+Longest Repeating Character Replacement ⭐⭐⭐
+
+Minimum Window Substring ⭐⭐⭐⭐ (VERY high signal)
+
+If you solve Minimum Window confidently → you are above average already.
+
+⭐ LEVEL 1 — Core Interview Patterns
+
+Now we move from “coder” → problem solver.
+
+Stack
+
+Valid Parentheses
+
+Min Stack
+
+Daily Temperatures ⭐⭐
+
+Largest Rectangle in Histogram ⭐⭐⭐⭐ (elite problem)
+
+Histogram separates strong candidates from average ones.
+
+Binary Search (VERY HIGH ROI)
+
+Most candidates under-train this.
+
+Binary Search
+
+Search in Rotated Sorted Array ⭐⭐⭐
+
+Find Minimum in Rotated Sorted Array
+
+Koko Eating Bananas ⭐⭐⭐
+
+Median of Two Sorted Arrays ⭐⭐⭐⭐ (do it once for brain expansion)
+
+Linked List
+
+You won’t get many, but when you do — panic kills candidates.
+
+Reverse Linked List
+
+Merge Two Sorted Lists
+
+Linked List Cycle
+
+Remove Nth Node
+
+Reorder List ⭐⭐⭐
+
+LRU Cache ⭐⭐⭐⭐ (VERY important design-style question)
+
+LRU shows senior-level thinking.
+
+⭐ LEVEL 2 — Trees (MOST ASKED TOPIC)
+
+Spend serious time here.
+
+Must Know Cold:
+
+Invert Binary Tree
+
+Maximum Depth
+
+Same Tree
+
+Subtree of Another Tree
+
+Lowest Common Ancestor ⭐⭐⭐
+
+Binary Tree Level Order Traversal
+
+Validate BST ⭐⭐⭐
+
+Kth Smallest in BST
+
+Advanced (DO NOT SKIP):
+
+Construct Binary Tree from Preorder + Inorder ⭐⭐⭐
+
+Binary Tree Maximum Path Sum ⭐⭐⭐⭐ (elite)
+
+If you solve Max Path Sum → you’re operating near senior level.
+
+⭐ LEVEL 3 — Graphs (Where Candidates Collapse)
+
+Most people avoid graphs.
+
+Don’t.
+
+This is where offers are won.
+
+BFS / DFS
+
+Number of Islands ⭐⭐⭐
+
+Clone Graph ⭐⭐⭐
+
+Pacific Atlantic Water Flow ⭐⭐⭐
+
+Surrounded Regions
+
+Topological Sort
+
+VERY common at big companies.
+
+Course Schedule ⭐⭐⭐
+
+Course Schedule II
+
+Advanced Graph
+
+Word Ladder ⭐⭐⭐⭐
+
+Network Delay Time
+
+Reconstruct Itinerary ⭐⭐⭐⭐
+
+Word Ladder is a brain stretcher.
+
+⭐ LEVEL 4 — Heap / Priority Queue
+
+Extremely common in backend interviews.
+
+Kth Largest Element
+
+Top K Frequent Words
+
+Find Median from Data Stream ⭐⭐⭐⭐
+
+Merge K Sorted Lists ⭐⭐⭐
+
+Median = very high signal problem.
+
+⭐ LEVEL 5 — Backtracking
+
+Teaches recursion discipline.
+
+Subsets
+
+Subsets II
+
+Permutations ⭐⭐
+
+Combination Sum ⭐⭐⭐
+
+Word Search ⭐⭐⭐
+
+N Queens ⭐⭐⭐⭐ (optional but great brain training)
+
+⭐ LEVEL 6 — Dynamic Programming (THE DIVIDER)
+
+Most candidates fear DP because they learn it wrong.
+
+👉 Focus on PATTERNS, not memorization.
+
+DP Starters
+
+Climbing Stairs
+
+House Robber ⭐⭐
+
+House Robber II
+
+Coin Change ⭐⭐⭐
+
+Longest Increasing Subsequence ⭐⭐⭐
+
+Partition Equal Subset Sum ⭐⭐⭐
+
+Advanced DP (Do slowly)
+
+Edit Distance ⭐⭐⭐⭐
+
+Decode Ways
+
+Unique Paths
+
+Burst Balloons ⭐⭐⭐⭐ (elite tier)
+
+If Burst Balloons clicks → interviews feel easier.
+
+⭐ LEVEL 7 — Greedy (Often Hidden)
+
+Interviewers love sneaking greedy problems.
+
+Jump Game ⭐⭐⭐
+
+Jump Game II
+
+Gas Station
+
+Merge Intervals ⭐⭐⭐
+
+Non-overlapping Intervals
+
+⭐ LEVEL 8 — HARD Problems That Upgrade Your Brain
+
+You don't need many — just enough to stretch thinking.
+
+Pick ~10–15:
+
+Trapping Rain Water
+
+Median of Two Sorted Arrays
+
+Largest Rectangle
+
+Max Path Sum
+
+Word Ladder
+
+Edit Distance
+
+Burst Balloons
+
+Merge K Lists
+
+Reconstruct Itinerary
+
+These rewire how you approach problems.
+
+🔥 THE PROFESSIONAL STRATEGY (Most Important Section)
+
+Don’t grind randomly.
+
+Use this loop:
+
+✅ Step 1
+
+Attempt for 30–40 minutes
+
+✅ Step 2
+
+If stuck → read the approach (NOT full code)
+
+✅ Step 3
+
+Implement from memory later.
+
+Biggest Mistake Candidates Make:
+
+They solve once and move on.
+
+No.
+
+👉 Re-solve 2–3 weeks later.
+
+That creates recall under pressure.
+
+⚠️ Truth Most People Won’t Tell You
+
+If you can comfortably solve:
+
+✅ Longest Consecutive
+✅ 3Sum
+✅ Minimum Window
+✅ Koko
+✅ LRU
+✅ Validate BST
+✅ Course Schedule
+✅ Coin Change
+✅ LIS
+
+You are already in the top ~15–20% of candidates.
+
+🔥 If You Want My Strong Recommendation
+
+Do about:
+
+👉 120 mediums
+👉 25–35 hards
+
+Skip excessive easies.
+
+If you want, next I can give you something VERY valuable:
+
+✅ A smart 12–16 week schedule used by candidates who land $150k–$250k offers
+✅ Exact daily problem counts
+✅ When to start mock interviews
+✅ When you are “interview ready”
+✅ How top performers practice
+
+Just tell me:
+
+make me the elite roadmap
 
 
 
